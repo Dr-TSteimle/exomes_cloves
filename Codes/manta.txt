@@ -1,0 +1,6 @@
+configManta.py --exome
+    --referenceFasta hg19.fa
+    --tumorBam  {TUMOR.BAM}
+    --normalBam {NORMAL.BAM}
+    --callRegions {AGILENT_REGIONS_V7.BED}
+    --runDir /tmp/...

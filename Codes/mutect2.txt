@@ -1,0 +1,11 @@
+gatk-4.2.1.0/gatk --java-options -Xmx32g 
+    Mutect2
+    -R hg19.fa
+    -L {AGILENT_REGIONS_V7.BED}
+    -I {TUMOR.BAM}
+    -I {NORMAL.BAM}
+    --normal-sample {NORMAL}
+    --germline-resource af-only-gnomad.raw.sites.chr.vcf
+    --panel-of-normals pon.vcf.gz
+    --f1r2-tar-gz {TUMOR_tumoral_f1r2.tar.gz}
+    -O {OUTPUT.VCF}

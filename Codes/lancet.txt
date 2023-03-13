@@ -1,0 +1,6 @@
+lancet --ref hg19.fa
+    --tumor  {TUMOR.BAM}
+    --normal {NORMAL.BAM}
+    --bed {AGILENT_REGIONS_V7.BED}
+    --num-threads 31 
+    > {OUTPUT.VCF}
