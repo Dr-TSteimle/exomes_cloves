@@ -1,2 +1,1 @@
-<object data="https://github.com/Dr-TSteimle/exomes_cloves/blob/main/presentation.pdf" type="application/pdf" width="100%"> 
-</object>
+:point_right: [Presentation of the results](https://github.com/Dr-TSteimle/exomes_cloves/raw/main/presentation.pdf)
